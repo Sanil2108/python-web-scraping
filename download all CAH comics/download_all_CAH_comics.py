@@ -31,4 +31,4 @@ def getAndSaveComic(url_path, j, local_path=''):
 
     print('\t\t\tDONE !!')
 
-getAndSaveComics(100)
+# getAndSaveComics(100)

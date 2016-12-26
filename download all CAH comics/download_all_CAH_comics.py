@@ -10,6 +10,7 @@ def getAndSaveComics(amount, local_path='', start=4500):
 
 def getAndSaveComic(url_path, j, local_path=''):
     # First initialize the list that will hold all img source
+    #just an empty array right now
     list_of_imgs = []
     soup = bs4.BeautifulSoup(requests.get(url_path).text, 'html5lib')
     all_imgs = soup.find_all('img')
